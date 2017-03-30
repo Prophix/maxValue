@@ -1,0 +1,14 @@
+<html>
+    <head>
+        
+        <link href="node_modeules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+        <script src="node_modeules/angular/angular.js"/>
+        <script src="node_modeules/lodash/lodash.js"/>
+
+        <script src="maxValue.directive.js"/>
+    </head>
+    <body ng-app="main" ng-controller="MainController as vm">
+      <input id="txtOrderQuantity" maxValue="50" value="vm.orderQuantity">
+    </body>
+</html>
